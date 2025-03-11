@@ -1,0 +1,16 @@
+# nejaky komentar
+
+
+# zapneme modul pro "prepisovani" url
+RewriteEngine On
+
+# pokud prijde pozadavek na jekekoliv url co neexistuje napriklad /kontakt nevo /blabla, tak misto toho zmenit url na:
+# 	index.php?stranka=ToCoJevURL
+# takze napriklad /kontakt (uzivatelsky privetive) se nam zmeni na index.php?stranka=kontakt (v kodu funkcni)
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.+) index.php?stranka=$1 [L,QSA]
+
+# dela hlavne to ze pokud navstime na nasem webu neexistujici url (at z duvodu napsani nesmyslu nebo jen treba /kontakt)
+# tak nam to prepise na ten nas index a jeste nam to do toho hodi co tam bylo zapsano
+
