@@ -29,7 +29,8 @@
 * Admin panel: good-coffee.kvalitne.cz/admin.php  
 * Create your own login credentials  
 * After logging in, you can edit the website content (except for the header and footer)  
-* Option to add or remove navigation items  
+* Option to add or remove navigation items
+* Navigation items are sortable (drag&drop)  
   
 **SECURITY**  
 * For increased security, it is recommended to move config.php outside the public directory  
