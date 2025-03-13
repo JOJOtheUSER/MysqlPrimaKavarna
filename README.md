@@ -10,8 +10,9 @@
 * No installation required (includes vendor folder)
 * All configurations should be correct
 * Requires only a local server and MySQL  
-* The database connection details on Windows are in config.php  
-* Recommended package for Windows: XAMPP  
+* The database connection details on Windows are in config.php
+* It is necessary to import primakavarna.sql via phpMyAdmin
+* Recommended package for Windows: XAMPP (apache, mysql etc...)
 
 **TECHNOLOGIES USED**  
 * Thunderer/Shortcode (shortcode support) + helper  
