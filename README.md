@@ -13,6 +13,7 @@
 * The database connection details on Windows are in config.php
 * It is necessary to import primakavarna.sql via phpMyAdmin
 * Recommended package for Windows: XAMPP (apache, mysql etc...)
+* The project was created based on XAMPP 8.2.12 / PHP 8.2.12
 
 **TECHNOLOGIES USED**  
 * Thunderer/Shortcode (shortcode support) + helper  
