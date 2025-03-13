@@ -35,7 +35,8 @@
 * On hosting providers, a public directory is usually prepared and auto searched by Web server
 * Upload the project there and place config.php one level above
 * Alternatively, use .htaccess to restrict access to config.php  
-* If config.php is moved above the public directory, update stranky.php accordingly: require \_\_DIR\_\_ . "/../config.php";  
+* If config.php is moved above the public directory, update stranky.php accordingly:
+  * require \_\_DIR\_\_ . "/../config.php";  
 
 
 
